@@ -1,0 +1,12 @@
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\bin\Debug\WindowsFormsApp1.exe.config
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\bin\Debug\WindowsFormsApp1.exe
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\bin\Debug\WindowsFormsApp1.pdb
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\obj\Debug\WindowsFormsApp1.exe
+C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\obj\Debug\WindowsFormsApp1.pdb
