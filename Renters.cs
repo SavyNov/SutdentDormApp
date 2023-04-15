@@ -16,5 +16,9 @@ namespace WindowsFormsApp1
         public string PhoneNumber { get; set; }
         public string Type { get; set; }
         public bool Payed { get; set; }
+
+        public override string ToString() {
+            return RoomNumber;
+        }
     }
 }

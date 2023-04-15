@@ -7,9 +7,8 @@ using System.Data.OleDb;
 using System.Data;
 using System.Security.Cryptography;
 using System.Windows.Forms;
-using WindowsFormsApp1;
 
-namespace ZadachaTSP
+namespace WindowsFormsApp1
 {
     internal class Connection
     {
@@ -18,7 +17,7 @@ namespace ZadachaTSP
 
         private void ConnectionTo()
         {
-            connect = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = E:\Vsichko_za_uni\3_Kurs\2ri_sem\TSP Proekt\SutdentDormApp\DormsDatabase.accdb");
+            connect = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0; Data Source = C:\uni\3ti kurs\2ri semestyr\TSP\SchoolDormApp\SutdentDormApp\DormsDatabase.accdb");
             command = connect.CreateCommand();
         }
 
@@ -55,7 +54,8 @@ namespace ZadachaTSP
             try
             {
                 command.CommandText = "Insert into Document(RenterID) values ("
-                    + rent.ID;
+                    + rent.ID
+                    + ")";
                 command.CommandType = CommandType.Text;
                 connect.Open();
                 command.ExecuteNonQuery();
@@ -77,8 +77,7 @@ namespace ZadachaTSP
         {
             try
             {
-                command.CommandText = "Insert into Renters(ID,[FullName],EGN,RoomNumber,[FamilyStatus],PhoneNumber,[Type],Payed) values ("
-                    + rent.ID + ",'"
+                command.CommandText = "Insert into Renters([FullName],EGN,RoomNumber,[FamilyStatus],PhoneNumber,[Type],Payed) values ('"
                     + rent.FullName + "',"
                     + rent.EGN + ","
                     + rent.RoomNumber + ",'"
