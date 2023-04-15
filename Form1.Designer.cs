@@ -67,7 +67,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(81, 30);
             this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
+            this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -76,7 +76,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(81, 30);
             this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
+            this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -86,7 +86,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(81, 30);
             this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
+            this.button3.Text = "Edit";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -95,7 +95,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(81, 30);
             this.button4.TabIndex = 6;
-            this.button4.Text = "button4";
+            this.button4.Text = "Show renters";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -104,7 +104,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(81, 20);
             this.button5.TabIndex = 7;
-            this.button5.Text = "button5";
+            this.button5.Text = "Search";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -113,7 +113,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(81, 30);
             this.button6.TabIndex = 8;
-            this.button6.Text = "button6";
+            this.button6.Text = "Insert";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 

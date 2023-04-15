@@ -26,13 +26,6 @@ namespace WindowsFormsApp1
         Connection connect = new Connection();
         private void Form1_Load(object sender, EventArgs e) {
             loginForm.ShowDialog();
-            button1.Text = "OK"; 
-            button2.Text = "Exit";
-            button3.Text = "Edit";
-            button4.Text = "Show renters";
-            button5.Text = "Search";
-            button6.Text = "Insert";
-            listBox1.Items.Add("Haha hui");
             listBox1.BorderStyle=BorderStyle.FixedSingle; listBox1.SelectedIndex = 0;
         }
 
