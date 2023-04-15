@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    internal class Rooms
+    internal class Document
     {
-        public string Price { get; set; }
-        public string RoomNumber { get; set; }
+        public string ID { get; set; }
+        public string RenterID { get; set; }
     }
 }
