@@ -12,18 +12,25 @@ namespace WindowsFormsApp1
 {
     public partial class Form2: Form
     {
+
         public Form2() {
             InitializeComponent();
+
         }
 
         private void Form2_Load(object sender, EventArgs e) {
             label1.Text="Username";
             label2.Text="Password";
             button1.Text="Login";
+           
         }
 
         private void button1_Click(object sender, EventArgs e) {
-            this.Close();
+            String username = textBox1.Text;
+            String password = textBox2.Text;
+            CheckUser check = new CheckUser();
+            check.UserValidation(username, password);
+            this.Hide();
         }
     }
 }

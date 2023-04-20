@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
         Connection connect = new Connection();
         Renters rent = new Renters();
         private void Form1_Load(object sender, EventArgs e) {
-            loginForm.ShowDialog();
+           
         }
 
 
@@ -50,6 +50,11 @@ namespace WindowsFormsApp1
 
         private void button4_Click(object sender, EventArgs e) {
             MessageBox.Show("Renters of this room are: "+rent.FullName+" "+rent.EGN);
+        }
+
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e) {
+            Application.Exit();
         }
     }
 
